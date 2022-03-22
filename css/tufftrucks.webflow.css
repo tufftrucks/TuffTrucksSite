@@ -1315,7 +1315,7 @@ figcaption {
 }
 
 .items_content-dropdown-list {
-  display: none;
+  display: block;
   border-style: solid;
   border-width: 1px;
   border-color: #000;
@@ -1748,8 +1748,8 @@ figcaption {
 
 .image-11 {
   opacity: 0.82;
-  -webkit-filter: contrast(141%);
-  filter: contrast(141%);
+  -webkit-filter: saturate(151%) contrast(120%);
+  filter: saturate(151%) contrast(120%);
 }
 
 .html-embed {
@@ -2444,6 +2444,10 @@ figcaption {
   .fs-styleguide_2-col {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
+  }
+
+  .main-wrapper {
+    padding-top: 0.125em;
   }
 
   .margin-top {
